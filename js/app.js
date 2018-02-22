@@ -22,4 +22,8 @@ document.getElementById("profile").appendChild(temp);
 
 // 5. Create a span element of the id of "mail" and give it a content of 11. Append this element into the "Messages" li element.
 
+temp = document.createElement("span");
+temp.setAttribute("id", "mail");
+temp.innerHTML = 11;
+document.getElementsByClassName("menu")[2].appendChild(temp);
 
