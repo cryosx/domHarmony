@@ -15,7 +15,10 @@ document.getElementById("distance").innerHTML = 168;
 
 
 // 4. Create a paragraph element with the id of "pro2". In this paragraph, add the following content: "My main objective is to find a Mrs. McDonald." Append this element inside of the paragraph element with the id of "profile".
-
+var temp = document.createElement("p");
+temp.setAttribute("id", "pro2");
+temp.innerHTML = "My main objective is to find a Mrs. McDonald.";
+document.getElementById("profile").appendChild(temp);
 
 // 5. Create a span element of the id of "mail" and give it a content of 11. Append this element into the "Messages" li element.
 
